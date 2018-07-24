@@ -14,49 +14,50 @@
 * オペレータの追跡
 
 ## Setup
-* Arina
-机の上に，1[m]四方サイズの「Arina」が用意されます．
-Arina内には，1つのDoorと，いくつかの家具（障害物）が設置されます．
-また，Arina中には「Start Position」「Navigation Goal」「Follow Person Goal」が設置されます．
-Arinaと，Doorと家具の設置場所，「Start Position」「Navigation Goal」はSetupDayに公開されます．
+* **Arina**
+  * 机の上に，1[m]四方サイズの「Arina」が用意されます．
+  * Arina内には，1つのDoorと，いくつかの家具（障害物）が設置されます．
+  * また，Arina中には「Start Position」「Navigation Goal」「Follow Person Goal」が設置されます．
+  * Arinaと，Doorと家具の設置場所，「Start Position」「Navigation Goal」はSetupDayに公開されます．
 
-* Start Position
-スタート時，ロボットはアリーナ内で指定される「Start Position」に設置されます．
-ロボットの正面には「Door」が用意されます．
-Start PositionはSetupDayに公開されます．
+* **Start Position**
+  * スタート時，ロボットはアリーナ内で指定される「Start Position」に設置されます．
+  * ロボットの正面には「Door」が用意されます．
+  * Start PositionはSetupDayに公開されます．
 
-* Door
-アリーナ内に「Door」は1つだけ設置されています．
-Doorは全体が赤色で着色されています．
-DoorはSetupDayの公開されます．
+* **Door**
+  * アリーナ内に「Door」は1つだけ設置されています．
+  * Doorは全体が赤色で着色されています．
+  * DoorはSetupDayの公開されます．
 
-* Navigation Goal
-アリーナ内では「Navigation Goal」と呼ばれる場所が1箇所定義されます．
-「Navigation Goal」はSetupDayに公開されます．
+* **Navigation Goal**
+  * アリーナ内では「Navigation Goal」と呼ばれる場所が1箇所定義されます．
+  * 「Navigation Goal」はSetupDayに公開されます．
 
-* Follow Person Goal
-アリーナ内では「Follow Person Goal」と呼ばれる場所が3箇所定義されます．
-「Follow Person Goal」はSetupDayに公開されます．
+* **Follow Person Goal**
+  * アリーナ内では「Follow Person Goal」と呼ばれる場所が3箇所定義されます．
+  * 「Follow Person Goal」はSetupDayに公開されます．
 
-* Operator
-本ルールでは，全チームが「Custom Operator」を用意する必要があります．
+* **Operator**
+  * 本ルールでは，全チームが「Custom Operator」を用意する必要があります．
 
 ## Task
-* Start
+* **Start**
 ロボットの正面のドアがオープンするまで，ロボットはその場に留まらなければなりません．
 ドアがオープンすると，ロボットは移動を開始することができます．
 
-* Navigation Phase
-ロボットは自律的に「Navigation Goal」へ向かいます．
-Navigation Goal へ到着したロボットは，その場で停止する必要があります．
+* **Navigation Phase**
+  * ロボットは自律的に「Navigation Goal」へ向かいます．
+  * Navigation Goal へ到着したロボットは，その場で停止する必要があります．
 
-* Follow Person Phase
-ロボットは「Custom Operator」の誘導に従い，Navigation Goalから移動します．
-目的地として，事前定義された3箇所の「Follow Person Goal」からランダムに1箇所が指定されます．
+* **Follow Person Phase**
+  * ロボットは「Custom Operator」の誘導に従い，Navigation Goalから移動します．
+  * 目的地として，事前定義された3箇所の「Follow Person Goal」からランダムに1箇所が指定されます．
 
 ## Score Sheet
 * タスクの制限時間は10分である．
 * 競技は3トライアル実施し，点数の良い2つの平均を最終的な得点とする
+
 
 |Action　　　　　　　　　　　　　　　|Score　　　|
 |:-|-:|
