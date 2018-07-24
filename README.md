@@ -8,4 +8,4 @@
 * 8月 7日（16:00-19:00）：競技会
 
 ## ルールブック
-* これから書きます
+* [navigation_and_follow_challenge](url)
