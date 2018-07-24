@@ -8,4 +8,4 @@
 * 8月 7日（16:00-19:00）：競技会
 
 ## ルールブック
-* [navigation_and_follow_challenge](url)
+* [navigation_and_follow_challenge.md](https://github.com/yuma116/hma_competition_1808/blob/master/navigation_and_follow_challenge.md)を参照してください．
